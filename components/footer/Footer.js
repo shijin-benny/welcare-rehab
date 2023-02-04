@@ -122,7 +122,7 @@ function Footer() {
       <div className={styles.footer_container2}>
         <div className={styles.footer_inner2}>
           <div>
-            <h5>Copyright © 2022 | Designed ❤ By DGW</h5>
+            <h5>Copyright © 2022 | Designed ❤ By SB</h5>
           </div>
           <div className={styles.socialMedia_wrapper}>
             <img src={facebook.src} alt="" />
