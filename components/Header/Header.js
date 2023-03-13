@@ -7,13 +7,16 @@ import phone from "../../public/navbarImages/phone.png";
 import location from "../../public/navbarImages/location.png";
 import { useRouter } from "next/router";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faMobileScreenButton, faSearch } from "@fortawesome/free-solid-svg-icons";
+import { faCaretDown, faCaretRight, faMobileScreenButton, faSearch } from "@fortawesome/free-solid-svg-icons";
 
 function Header() {
   const router = useRouter();
   const [selected, setSelected] = useState("home");
   const handleRouter = (path) => {
-    router.push(path);
+    if (path === "/service") {
+    } else {
+      router.push(path);
+    }
   };
 
   return (
@@ -51,17 +54,29 @@ function Header() {
             <li className={selected === "/" ? styles.selected : ""} onClick={() => handleRouter("/")}>
               HOME
             </li>
-            <li className={selected === "aboutus" ? styles.selected : ""} onClick={() => router.push("/aboutus")}>
+            <li className={selected === "aboutus" ? styles.selected : ""} onClick={() => handleRouter("/aboutus")}>
               ABOUT US
             </li>
-            <li className={selected === "product" ? styles.selected : ""} onClick={() => router.push("/product")}>
+            <li className={selected === "product" ? styles.selected : ""} onClick={() => handleRouter("/product")}>
               PRODUCT
             </li>
-            <li className={selected === "gallery" ? styles.selected : ""} onClick={() => router.push("/gallery")}>
+            <li className={selected === "gallery" ? styles.selected : ""} onClick={() => handleRouter("/gallery")}>
               GALLERY
             </li>
-            <li className={selected === "service" ? styles.selected : ""} onClick={() => router.push("/")}>
+            <li className={selected === "service" ? styles.selected : ""} onClick={() => handleRouter("/service")}>
               SERVICE
+              <FontAwesomeIcon icon={faCaretDown} className={styles.FontAwesomeIconCaretDown} />
+              <div className={styles.dropdown_content}>
+                <a href="#">PROSTHETICS</a>
+                <a href="#">ORTHOTICS</a>
+                <a>
+                  PEDIATRICS <FontAwesomeIcon icon={faCaretRight} className={styles.FontAwesomeIcon} />
+                  <div className={styles.DropRight_content}>
+                    <p>LOWER LIMB BRACING</p>
+                    <p>SCOLIOSIS BRACING</p>
+                  </div>
+                </a>
+              </div>
             </li>
             <li>CONTACT US</li>
             <li className={styles.search_Wrapper}>
