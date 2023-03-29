@@ -47,34 +47,30 @@ function About(props) {
           <div className={styles.aboutUs_content}>
             <h4 className={styles.aboutus_topheading}>HI-TECH ORTHOTICS & PROSTHETICS</h4>
             <h1 className={styles.aboutus_heading}>
-              Welcome to <span> " Welcare Rehab "</span>
+              Welcome to <span> "Welcare Rehab"</span>
             </h1>
             <p>
-              ‘Opcar Clinic’ was established in the year of 2002 in Patna, Bihar. Since the start with the Best possible
-              services we have become the Best Hi-tech Orthotics and Prosthetics Dealer in Patna. 
+              There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration
+              in some form, by injected humour, or randomised words which don't look even slightly believable.
             </p>
             <p>
-              HI-TECH ORTHOTICS & PROSTHETICS WELCOME TO ‘Opcar Clinic’ ‘Opcar Clinic’ was established in the year of
-              2002 in Patna, Bihar. Since the start with the Best possible services we have become the Best Hi-tech
-              Orthotics and Prosthetics Dealer in Patna.  Mr. Rajesh Kumar is a RCI Registered professional of Orthotics
-              and Prosthetics who has proudly been a Life Member of “Orthotics and Prosthetics Association of India”
-              since 2006.{" "}
+              All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this
+              the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a
+              handful of model sentence structures, to generate Lorem Ipsum which looks reasonable.
             </p>
             <p>
-              Our clinician Mr. Rajesh Kumar” made this place that aspires to give healing touch to the patients
-              suffering various Orthopaedic Surgery, Foot Care Solution ( Diabetic & Neuropathic), paralysis , cerebral
-              palsy, post burn deformity issues. With a team of the best Orthotist/Prosthetist in the town we are giving
-              you a fast and adequate Restoration. 
+              The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections
+              1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact
+              original form, accompanied by English versions from the 1914 translation by H. Rackham.
             </p>
             <p>
-              Over 20 Years of experience makes Mr. Rajesh Kumar an undefeated expert in Hi-tech Orthotics and
-              Prosthetics Industry. We deal and customize medical supportive devices and measure that fit the patients
-              perfectly. Our Solutions help to improve to revive the mobility and in rehabilitation of a patient who
-              have gone through surgery or is suffering from disabilities.
+              The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections
+              1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact
+              original form, accompanied by English versions from the 1914 translation by H. Rackham.
             </p>
           </div>
         </div>
-        {page === "about" ? (
+        {/* {page === "about" ? (
           <>
             <div className={styles.abouts_knowMore}>
               <div className={styles.abouts_knowMore_Headings}>
@@ -88,21 +84,19 @@ function About(props) {
                 </div>
                 <div className={styles.abouts_knowMore_content}>
                   <p>
-                    ‘Opcar Clinic’ is a certified organization under “Bihar Shops & Establishment Act 1953” which is
-                    among the largest Hi-tech Orthotics and Prosthetic Service Providers in Patna. With a wide range of
-                    product resources, ‘Opcar Clinic’ offers its patients an extensive range of prosthetics (artificial
-                    limbs) and orthotics devices.
+                    There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                    alteration in some form, by injected humour, or randomised words which don't look even slightly
+                    believable.
                   </p>
                   <p>
-                    Our excellent patient care is the main reason why they choose us to aid them on their quest to
-                    restore their mobility and quality of life. Our years of experience and expertise in orthotics and
-                    prosthetics help us to evaluate your individual needs and recommend the right customized solution
-                    for you.
+                    If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything
+                    embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to
+                    repeat predefined chunks as necessary, making this the first true generator on the Internet.
                   </p>
                   <p>
-                    Patients and healthcare professionals prefer ‘Opcar’ because of our unparalleled access to orthotics
-                    and prosthetics technologies and our extensive clinical expertise. This allows us to improve
-                    outcomes, even in the most challenging clinical conditions.
+                    It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures,
+                    to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free
+                    from repetition, injected humour, or non-characteristic words etc.
                   </p>
                 </div>
               </div>
@@ -110,8 +104,7 @@ function About(props) {
           </>
         ) : (
           ""
-        )}
-
+        )} */}
         <div className={styles.aboutUs_inner2}>
           <h2>WHY CHOOSE US</h2>
           <span className={styles.aboutUs_whyChooseus_underline}></span>

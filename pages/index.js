@@ -34,7 +34,7 @@ export default function Home() {
   useEffect(() => {
     const intervalId = setInterval(() => {
       setCurrentIndex((currentIndex + 1) % slides.length);
-    }, 3000);
+    }, 10000);
     return () => clearInterval(intervalId);
   }, [currentIndex, slides.length]);
   return (
@@ -85,7 +85,7 @@ export default function Home() {
         {/*  ##### GALLERY SECTION END ##### */}
 
         {/*  ##### KNOW WHAT SECTION START ##### */}
-        <section>
+        {/* <section>
           <div className={styles.SectionTwo_outer1} style={{ backgroundImage: `url(${background_banner.src})` }}>
             <div className={styles.SectionTwo_inner1}>
               <div className={styles.headerDiv}>
@@ -131,7 +131,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
         {/*  ##### KNOW WHAT  SECTION END ##### */}
       </main>
       <footer className="footer_outer">

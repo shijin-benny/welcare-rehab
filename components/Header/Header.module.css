@@ -1,13 +1,14 @@
 .header_outer2 {
-  width: 100%;
+  max-width: 100vw;
   height: 60px;
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: black;
 }
+
 .header_inner {
-  width: 1500px;
+  max-width: 100vw;
   min-height: 70px;
   display: flex;
   align-items: center;
@@ -24,8 +25,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 10px;
-  background-color: #fff;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .header_top ul {
@@ -47,14 +48,14 @@
   padding: 8px;
   cursor: pointer;
 }
-.header_inner2 ul li {
+/* .header_inner2 ul li {
   border-bottom: 0px solid rgb(24, 89, 163);
   transition: border-width 0.2s ease;
 }
 
 .header_inner2 ul li:hover {
   border-width: 5px;
-}
+} */
 
 .header_top ul li {
   height: 50px;
@@ -101,7 +102,7 @@
   color: rgb(255, 255, 255);
 }
 .searchinput {
-  width: 150px;
+  width: 220px;
   height: 25px;
   margin-left: 10px;
   border-top-right-radius: 10px;
@@ -113,7 +114,6 @@
 }
 
 .dropdown_content {
-  /* display: none; */
   position: absolute;
   background-color: #f9f9f9;
   min-width: 160px;
@@ -121,7 +121,7 @@
   z-index: 1;
 }
 .DropRight_content {
-  /* display: none; */
+  display: none;
   position: absolute;
   background-color: #f9f9f9;
   min-width: 200px;
@@ -149,4 +149,66 @@
 
 .dropdown_content a:hover {
   background-color: #ddd;
+}
+
+/* Mobileside */
+
+.mobileHeaderInner {
+  width: 100%;
+  min-height: 80px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #424040;
+}
+
+.mobileHeaderInner ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.mobileNavIcon {
+  width: 200px;
+}
+
+.mobileHeaderInner .FontAwesomeIcon {
+  color: black;
+  height: 30px;
+}
+
+.menuItemsOuter {
+  min-height: 90px;
+  width: 100%;
+  background-color: #fff;
+  position: absolute;
+  right: 0;
+  top: 90px;
+}
+.menuItemsOuter ul {
+  min-height: 250px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  list-style-type: none;
+}
+.menuItemsOuter ul li {
+  border-bottom: 1px solid black;
+  padding: 20px;
+  font-size: 24px;
+  font-weight: 500;
+}
+.menuItemsOuter ul .service {
+  border-bottom: 1px solid black;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.menuItemsOuter .FontAwesomeIconCaretDown {
+  color: #383838;
+  height: 28px;
 }

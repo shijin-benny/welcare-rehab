@@ -1,0 +1,44 @@
+.about_sectionImg_outer {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 130px;
+  background-color: #1d1c1c;
+}
+.sectionDiv {
+  width: 1500px;
+  height: 200px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 200px;
+  display: flex;
+  align-items: center;
+}
+
+.aboutUs_heading_wrapperBox {
+  min-width: 300px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-color: #1b3253;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  color: #ffff;
+}
+.Contact_Container_outer {
+  background-color: #8eacd6;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+.contact_container_inner {
+  min-width: 85vw;
+  background-color: red;
+  height: 85vh;
+  margin-top: 50px;
+}
