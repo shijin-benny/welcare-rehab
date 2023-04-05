@@ -85,7 +85,7 @@ export default function Home() {
         {/*  ##### GALLERY SECTION END ##### */}
 
         {/*  ##### KNOW WHAT SECTION START ##### */}
-        {/* <section>
+        <section>
           <div className={styles.SectionTwo_outer1} style={{ backgroundImage: `url(${background_banner.src})` }}>
             <div className={styles.SectionTwo_inner1}>
               <div className={styles.headerDiv}>
@@ -101,21 +101,23 @@ export default function Home() {
                   <img src={locationIcon.src} alt="" />
                   <div className={styles.address_textDiv}>
                     <h3>ADDRESS</h3>
-                    <p>Madhuban Housing Complex, Near Ishan International School, Kankarbagh, Patna, 800020</p>
+                    <p>
+                      Lorem Ipsum is simply dummy text of the printing and tThe , comes from a line in section 1.10.32.
+                    </p>
                   </div>
                 </div>
                 <div className={styles.addressDiv}>
                   <img src={phoneIcon.src} alt="" />
                   <div className={styles.address_textDiv}>
                     <h3>PHONE</h3>
-                    <p>9122141583 / 8603317665</p>
+                    <p>9122141583 / 125879578</p>
                   </div>
                 </div>
                 <div className={styles.addressDiv}>
                   <img src={emailIcon.src} alt="" />
                   <div className={styles.address_textDiv}>
                     <h3>EMAIL</h3>
-                    <p>opcar7689@gmail.com</p>
+                    <p>welcareservice@gmail.com</p>
                   </div>
                 </div>
               </div>
@@ -131,7 +133,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-        </section> */}
+        </section>
         {/*  ##### KNOW WHAT  SECTION END ##### */}
       </main>
       <footer className="footer_outer">

@@ -1,6 +1,5 @@
 .about_sectionImg_outer {
   padding: 0;
-  margin: 0;
   width: 100%;
   height: 200px;
   display: flex;
@@ -31,14 +30,199 @@
   color: #ffff;
 }
 .Contact_Container_outer {
-  background-color: #8eacd6;
-  min-height: 100vh;
+  height: auto;
+  max-width: 100vw;
   display: flex;
   justify-content: center;
+  align-items: center;
+  background-color: #ffff;
 }
 .contact_container_inner {
-  min-width: 85vw;
-  background-color: red;
-  height: 85vh;
-  margin-top: 50px;
+  width: 1500px;
+  height: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contactBox {
+  min-width: 80%;
+  height: 700px;
+  display: flex;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.contact_left {
+  width: 35%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.contactInfoDiv {
+  height: 200px;
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.contactInfoDiv p {
+  margin-top: 10px;
+  font-size: small;
+  letter-spacing: 1px;
+  color: gray;
+  font-weight: 300;
+  line-height: 21px;
+}
+.fontIcons {
+  height: 20px;
+  color: #8eacd6;
+}
+.SocialIconDiv {
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+}
+.iconWrapper {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-right: 10px;
+}
+.contact_right {
+  width: 65%;
+  height: 100%;
+  display: flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contactForm {
+  width: 90%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+}
+.contactForm h2 {
+  margin-bottom: 10px;
+  font-weight: 500;
+  letter-spacing: 4px;
+}
+.contactForm p {
+  margin-bottom: 10px;
+  color: rgb(158, 158, 158);
+}
+.formContainer {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+  margin-top: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 16px;
+}
+.inputWrapper {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.inputAndIcon {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 5px;
+}
+.IconAndNameInput {
+  width: 49%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 5px;
+}
+.nameInput {
+  width: 80%;
+  height: 75px;
+  border: none;
+  padding: 5px;
+  background-color: #ffff;
+  color: #000000;
+}
+.commonInput {
+  height: 75px;
+  width: 90%;
+  border: none;
+  padding: 5px;
+  background-color: #ffff;
+  color: #000000;
+}
+.inputWrapper textarea {
+  width: 100%;
+  padding: 10px;
+  background-color: #ffff;
+  border: 1px solid #000000;
+  color: #000000;
+}
+.submitButtonDiv {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.submitButtonDiv button {
+  height: 50px;
+  width: 100%;
+  background-color: #000000;
+  color: #ffff;
+  font-weight: bold;
+  letter-spacing: 5px;
+  font-size: 18px;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+@media only screen and (max-width: 1000px) {
+  .contact_left {
+    width: 35%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    border-right: 2px solid black;
+    display: none;
+  }
+  .contact_right {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .about_sectionImg_outer {
+    padding: 0;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 87px;
+    background-color: #1d1c1c;
+  }
 }

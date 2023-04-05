@@ -59,12 +59,12 @@ function Header() {
                   <img src={phone.src} alt="" />
                   <p>
                     {" "}
-                    9122141583 / 8603317665 <br /> opcar7689@gmail.com
+                    9122141583 / 8603859347665 <br /> Welcare12@gmail.com
                   </p>
                 </li>
                 <li>
                   <img src={location.src} alt="" />
-                  <p>Madhuban Housing Complex Near Ishan International School, Kankarbagh, Patna, 800020</p>
+                  <p>Lorem ipsum may be used as a placeholder before final copy is available</p>
                 </li>
               </ul>
             </div>
@@ -99,8 +99,8 @@ function Header() {
                   </p>
                   {openService === true ? (
                     <div className={styles.dropdown_content} id="serviceOptions">
-                      <a href="#">PROSTHETICS</a>
-                      <a href="#">ORTHOTICS</a>
+                      <a href="/prosthetics">PROSTHETICS</a>
+                      <a href="/orthotics">ORTHOTICS</a>
                       <a onClick={() => (document.getElementById("serviceSubOptions").style.display = "block")}>
                         PEDIATRICS <FontAwesomeIcon icon={faCaretRight} className={styles.FontAwesomeIcon} />
                         <div className={styles.DropRight_content} id="serviceSubOptions">
@@ -115,12 +115,12 @@ function Header() {
                 </li>
 
                 <li onClick={() => handleRouter("/contact-us", null)}>CONTACT US</li>
-                <li className={styles.search_Wrapper}>
+                {/* <li className={styles.search_Wrapper}>
                   <div className={styles.search_IconDiv}>
                     <FontAwesomeIcon icon={faSearch} className={styles.FontAwesomeIcon} />
                   </div>
                   <input type="text" className={styles.searchinput} placeholder="SEARCH" />
-                </li>
+                </li> */}
               </ul>
             </nav>
           </div>
@@ -147,17 +147,17 @@ function Header() {
             <>
               <div className={styles.menuItemsOuter}>
                 <ul>
-                  <li>Home</li>
-                  <li>About us</li>
-                  <li>Product</li>
-                  <li>Gallery</li>
+                  <li onClick={() => handleRouter("/", null)}>Home</li>
+                  <li onClick={() => handleRouter("/aboutus", null)}>About us</li>
+                  <li onClick={() => handleRouter("/product", null)}>Product</li>
+                  <li onClick={() => handleRouter("/gallery", null)}>Gallery</li>
                   <li className={styles.service}>
                     <span>service</span>{" "}
                     <span>
                       <FontAwesomeIcon icon={faCaretDown} className={styles.FontAwesomeIconCaretDown} />
                     </span>
                   </li>
-                  <li>Contact us</li>
+                  <li onClick={() => handleRouter("/contact-us", null)}>Contact us</li>
                 </ul>
               </div>
             </>

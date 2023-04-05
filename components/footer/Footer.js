@@ -17,8 +17,8 @@ function Footer() {
             <span></span>
             <div className={styles.footer_content}>
               <p className={styles.footer_content_aboutus}>
-                ‘Opcar Clinic’ was established in the year of 2002 in Patna, Bihar. Since the start with the Best
-                possible services we have become the Best Hi-tech Orthotics and Prosthetics Dealer in Patna.{" "}
+                Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical
+                Latin literature from 45 BC, making it over 2000 years old. Richard McClintock.
               </p>
             </div>
           </div>
@@ -101,13 +101,13 @@ function Footer() {
                 <div className={styles.footer_infoIconDiv}>
                   <FontAwesomeIcon icon={faHomeLg} className={styles.FontAwesomeIcon2} />
                 </div>
-                <p>Madhuban Housing Complex, Near Ishan International School, Kankarbagh, Patna, 800020</p>
+                <p>Lorem Ipsum comes from sections 1.10.32 and 1.10.33 </p>
               </div>
               <div className={styles.footer_info1}>
                 <div className={styles.footer_infoIconDiv}>
                   <FontAwesomeIcon icon={faEnvelope} className={styles.FontAwesomeIcon2} />
                 </div>
-                <p>Sample.cc@gmail.com</p>
+                <p>welcareservice@gmail.com</p>
               </div>
               <div className={styles.footer_info1}>
                 <div className={styles.footer_infoIconDiv}>

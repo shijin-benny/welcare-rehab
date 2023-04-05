@@ -19,6 +19,10 @@ a {
   padding: 0;
   margin: 0;
 }
+*:focus {
+  outline: none;
+  box-shadow: none;
+}
 /* Header outer */
 .header_outer {
   width: 100%;
